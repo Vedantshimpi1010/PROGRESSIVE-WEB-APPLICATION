@@ -1,0 +1,285 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding-top: 30px;
+    margin: 0;
+    margin-right: 0px;
+    text-align: right;
+    justify-content: flex-end;
+    background-color:black;
+    height: 50px;
+}
+.punam{
+    display: flex;
+}
+.main1{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    width: 40%;
+    height: 700px;
+    place-items: center;
+    background-color:#BC9F8B;
+}
+
+.main1 img {
+    height: 700px;
+    width: 100%;
+    opacity: 30%;
+}
+.main2{
+    width: 60%;
+    height: 700px;
+}
+.tex{
+    position: absolute;
+    font-size: 30PX;
+    color: rgb(22, 24, 26);
+    font-style: inherit;
+}
+about-us{
+    display: flex;
+    width: 100%; /* Full width */
+    padding: 350px 20px; /* Add padding for spacing */
+    background-color: #f4f4f4; /* Light background for contrast */
+    text-align: left;
+    margin: 0;
+    padding: 0;
+  }
+  section {
+    margin-bottom: 50px; 
+  }
+  
+  .about-us{
+    display: flex;
+    text-align: left;
+    text-align: center;
+  }
+  .about-us h2 {
+    
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .about-us p {
+    font-size: 1rem;
+    color: #666;
+    line-height: 1.5;
+    text-align: left;
+  }
+  
+  .center4{
+    display: flex;
+    width: 50%;
+  }
+  
+  .center3{
+    width: 50%;
+  }
+  .secc{
+    display: flex;
+  }
+ 
+ .secc2{
+  display: flex;
+  margin: 50px;
+ }
+ .ritu{
+  border: 5px solid black;
+ }
+ .secc3{
+  display: flex;
+  margin: 50px;
+  padding-left: 50px;
+  text-align: center;
+  padding: 10px;
+ }
+ .cff img{
+  border: 5px solid black;
+  
+ }
+ .hed5{
+    margin-left:-50px;
+    margin-right: -50px;
+    background-image: url('great-coffee-bean.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 80%;
+    height:800px;
+ }
+ .hh1{
+  display: flex;
+ }
+ .hh2{
+  display: flex;
+ }
+ .secc4{
+  display: flex;
+  margin: 50px;
+}
+.main7{
+  height: 500px;
+  width: 50%;
+  margin: 50px;
+  border-radius: 20px;
+}
+.main8{
+  height: 470px;
+  width: 50%;
+  margin: 50px;
+  margin-top: 90px;
+  border: 5px solid  black;
+  border-radius: 20px;
+  background-color: white;
+  padding: 50px;
+}
+.secc5{
+  display: flex;
+  margin: 50px;
+  padding-left: 80px;
+  text-align: center;
+  padding: 0;
+ 
+
+}
+.ig1 img{
+  border: 2px solid  black;
+  height: 30px;
+  width: 30px;
+  /* position: absolute;
+ left: 40px; */
+}
+#lunchimg
+{
+  position: absolute;
+  left: 600px;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+#breakfastimg
+{
+  position: absolute;
+  left: 725px;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+#dinnerimg
+{
+  position: absolute;
+  left: 850px;
+  height: 100px;
+  width: 100px;
+  cursor: pointer;
+}
+
+#h41
+{
+  font-family:'Times New Roman', Times, serif;
+  position: absolute;
+  top: 3850px;
+  left: 620px;
+  color: black;
+  cursor: pointer;
+}
+#h42
+{
+  font-family:'Times New Roman', Times, serif;
+  position: absolute;
+  top: 3850px;
+  left:745px;
+  color: black;
+  cursor: pointer;
+}
+#h43
+{
+  font-family:'Times New Roman', Times, serif;
+  position: absolute;
+  top: 3850px;
+  left: 865px;
+  color: black;
+  cursor: pointer;
+}
+#breakfast-images img:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+  transition: transform 0.3s ease-in-out;
+}
+#lunch-images img:hover{
+  transform: scale(1.1); /* Slight zoom on hover */
+  transition: transform 0.3s ease-in-out;
+}
+#Dinner-images img:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+  transition: transform 0.3s ease-in-out;
+  
+}
+.sectt{
+  display: flex;
+  margin-left: 400px;
+  gap: 10px;
+  
+}
+.footer {
+  background-color: #d32f2f; /* Red background */
+  color: white; /* White text */
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin-left:-50px;
+  margin-right: -50px;
+}
+
+.footer h2 {
+  font-size: 30px;
+  margin-bottom: 5px;
+}
+
+.footer p {
+  margin: 5px 0;
+  font-size: 16px;
+}
+
+.social-icons {
+  margin: 20px 0;
+}
+
+.social-icons a {
+  margin: 0 10px;
+  display: inline-block;
+}
+
+.social-icons img {
+  width: 40px;
+  height: 40px;
+  transition: transform 0.3s;
+}
+
+.social-icons img:hover {
+  transform: scale(1.2);
+}
+
+@media (max-width: 768px) {
+  .footer h2 {
+      font-size: 24px;
+  }
+
+  .footer p {
+      font-size: 14px;
+  }
+
+  .social-icons img {
+      width: 30px;
+      height: 30px;
+  }
+}
+.ffllx{
+  display: flex;
+  gap: 12px;
+}
